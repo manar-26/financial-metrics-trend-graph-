@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string metrics[] = {"Revenue", "Net Income", "EPS"};
+
+    for (int i = 0; i < 3; i++) {
+        cout << "Processing: " << metrics[i] << endl;
+        cout << "Displaying " << metrics[i] << " Trend Graph..." << endl;
+    }
+
+    return 0;
+}
